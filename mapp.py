@@ -31,9 +31,9 @@ def scanner_reseau(ip, timeout=1, retry=2):
     # Combine les paquets ARP et Ethernet pour envoyer une demande de diffusion ARP
     arp_request_broadcast = broadcast/arp_request
 
-    # Envoie la demande ARP et récupère les réponses des hôtes
-    # Réponse est une liste de paquets envoyés et reçus, avec la réponse dans le deuxième élément
-    # Timeout et retry sont utilisés pour définir le temps d'attente pour la réponse et le nombre de tentatives
+    """ Envoie la demande ARP et récupère les réponses des hôtes
+    Réponse est une liste de paquets envoyés et reçus, avec la réponse dans le deuxième élément
+    Timeout et retry sont utilisés pour définir le temps d'attente pour la réponse et le nombre de tentatives"""
     answered_list, unanswered_list = scapy.srp(arp_request_broadcast, timeout=timeout, retry=retry, verbose=False)
 
     # Analyse les réponses pour extraire les adresses IP et MAC
