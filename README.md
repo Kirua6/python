@@ -4,7 +4,7 @@ Ce programme permet de scanner un réseau pour trouver les adresses IP et MAC de
 
 ## Utilisation
 Installez Python --> https://www.python.org/ --> Downloads --> Python 3.11.3 <br>
-Cochez la case path lors de l'installation pour ajouter Python aux variables d'environnement<br>
+Cochez la case path lors de l'installation pour ajouter Python aux variables d'environnement.<br>
 Installez les dépendances requises en exécutant la commande suivante : pip install scapy<br>
 Installez le fork de WinPcap --> Npcap: https://npcap.com/#download<br>
 (Petit rappel: Un fork de WinPcap est une version modifiée et indépendante du logiciel WinPcap.)<br>
