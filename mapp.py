@@ -1,4 +1,5 @@
 import scapy.all as scapy
+#possibilité de remplacer "import scapy.all as scapy" par "from scapy.arch import get_windows_if_list, get_if_raw_addr, pcap"
 import csv
 import socket
 import re
