@@ -7,7 +7,7 @@ Installez Python --> https://www.python.org/ --> Downloads --> Python 3.11.3 <br
 Cochez la case path lors de l'installation pour ajouter Python aux variables d'environnement.<br>
 Installez les dépendances requises en exécutant la commande suivante : pip install scapy<br>
 Installez le fork de WinPcap --> Npcap: https://npcap.com/#download<br>
-(Petit rappel: Un fork de WinPcap est une version modifiée et indépendante du logiciel WinPcap.)<br>
+(Petit rappel: Un fork est une version modifiée et indépendante d'un logiciel.)<br>
 Exécutez le programme en entrant python mapp.py dans un terminal.<br>
 Entrez l'adresse IP que vous souhaitez scanner, le délai d'expiration et le nombre de tentatives.<br>
 Les adresses IP et MAC des hôtes connectés seront affichées dans un tableau.<br>
