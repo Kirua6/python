@@ -3,7 +3,8 @@
 Ce programme permet de scanner un réseau pour trouver les adresses IP et MAC des hôtes connectés au réseau.
 
 ## Utilisation
-Installez Python --> https://www.python.org/ --> Downloads --> Python 3.11.3 <br>
+J'ai mis à disposition Python et Npcap mais si vous voulez utiliser les dernières versions:
+Installez Python --> https://www.python.org/ --> Downloads --> latest version of Python  <br>
 Cochez la case path lors de l'installation pour ajouter Python aux variables d'environnement.<br>
 Installez les dépendances requises en exécutant la commande suivante : pip install scapy<br>
 Installez le fork de WinPcap --> Npcap: https://npcap.com/#download<br>
