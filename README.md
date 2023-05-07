@@ -12,7 +12,7 @@ Si vous souhaitez enregistrer les résultats dans un fichier CSV, entrez "O" lor
 
 ## Exemple
 
-$ python scanner_reseau.py<br>
+$ python mapp.py<br>
 Entrez une adresse IP pour numériser le réseau: 192.168.1.0/24<br>
 Entrez un délai d'expiration (en secondes): 10<br>
 Entrez un nombre de tentatives: 3<br>
