@@ -1,8 +1,8 @@
 # python network mapping 
-##Scanner réseau
+## Scanner réseau
 Ce programme permet de scanner un réseau pour trouver les adresses IP et MAC des hôtes connectés au réseau.
 
-##Utilisation
+## Utilisation
 Installez les dépendances requises en exécutant la commande suivante : pip install scapy
 Installez le fork de WinPcap --> Npcap: https://npcap.com/#download | petit rappel: Un fork de WinPcap est une version modifiée et indépendante du logiciel WinPcap.
 Exécutez le programme en entrant python mapp.py dans un terminal.
@@ -10,7 +10,7 @@ Entrez l'adresse IP que vous souhaitez scanner, le délai d'expiration et le nom
 Les adresses IP et MAC des hôtes connectés seront affichées dans un tableau.
 Si vous souhaitez enregistrer les résultats dans un fichier CSV, entrez "O" lorsque vous êtes invité à le faire, puis entrez le nom du fichier CSV.
 
-##Exemple
+## Exemple
 
 $ python scanner_reseau.py
 Entrez une adresse IP pour numériser le réseau: 192.168.1.0/24
